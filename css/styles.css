@@ -1,18 +1,276 @@
 body {
     font-family: 'Roboto', sans-serif ;
-
   }
   .link {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+
+text-decoration: none;
+text-transform: capitalize;
+}
+
+.item,
+.contacts-list
+{
+    list-style-type: none;
+}
+
+.filter-item {
+font-family: inherit;
+}
+.contacts-list
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: #757575;
 
 text-decoration: none;
 text-transform: capitalize;
 
-color: #212121;
+}
+.item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: #212121;
 
-{
+text-decoration: none;
+text-transform: capitalize;
+}
+.title-first {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+text-decoration: none;
+text-transform: capitalize;
+}
+.button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: #FFFFFF;
+    background-color:#2196F3;
+text-decoration: none;
+text-transform: capitalize;
+}
+.title-third {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+
+text-decoration: none;
+text-transform: capitalize;
+}
+.features-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+
+text-decoration: none;
+text-transform: capitalize;
+}
+.work {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+
+text-decoration: none;
+text-transform: capitalize;
+}
+.team {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+
+text-decoration: none;
+text-transform: capitalize;
+}
+.title-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+
+text-decoration: none;
+text-transform: capitalize;
+}
+.team-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+
+text-decoration: none;
+text-transform: capitalize;
+}
+.logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+.header-logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+
+letter-spacing: 0.03em;
+
+color: #000000;
+}
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+    }
+    .contacts-link  {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        
+        letter-spacing: 0.03em;
+        
+        color: #FFFFFF;
+        }
+        .contacts-list {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;
+            
+            letter-spacing: 0.03em;
+            
+            color: rgba(255, 255, 255, 0.6);
+            }
+            .logo-contacts {
+                background-color: #2F303A;
+                }
+                .hero {
+                    background-color: #2F303A;
+                    }
+                    .filter-button {
+                        font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+                        background-color: #F5F4FA;
+                        }
+                        .header-example {
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 2;
+                            
+                            letter-spacing: 0.06em;
+                            
+                            color: #212121;
+                        
+                        text-decoration: none;
+                        text-transform: capitalize;
+                        }
+                        .text-example {
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 1.88;
+                            
+                            letter-spacing: 0.03em;
+                            
+                            color: #757575;
+                        
+                        text-decoration: none;
+                        text-transform: capitalize;
+                        }
+                    
