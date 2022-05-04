@@ -13,11 +13,11 @@
 }
 /* Главная */
 body {
-font-family: var(--main-font);
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--main-txt-cl);
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
 }
 a {
     text-decoration: none;
@@ -78,12 +78,12 @@ a {
 }
 .mail,
 .phone {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 
-color: #757575;
+    color: #757575;
 }
 .mail:hover,
 .mail:focus {
@@ -229,17 +229,17 @@ color: #757575;
 }
 .filter-button-first,
 .filter-button {
-font-family: inherit;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
 
-color: currentColor;
-background-color: #F5F4FA;
-cursor: pointer;
+    color: currentColor;
+    background-color: #F5F4FA;
+    cursor: pointer;
 }
 .filter-list .filter-item .filter-button:hover,
 .filter-list .filter-item .filter-button:focus,
@@ -257,19 +257,20 @@ cursor: pointer;
     background-color: #FFFFFF
 }
 .header-example {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 
-color: #212121;
+    color: #212121;
 }
-.text-example {
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
 
-color: #757575;
+.text-example {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+
+    color: #757575;
 }
 
 
