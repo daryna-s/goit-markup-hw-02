@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
+    <link rel="visually-hidden" href="./css/visually-hidden.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -14,30 +15,29 @@
 <!-- Тело -->
 <body>
     <!-- навигация -->
-        <header class="header">
+<header class="header">
     <nav class="navigation">
         <a href="" class="logo">Web<span class="header-logo">Studio</span></a>
-    <ul class="list-item">
-        <li class="item">
-            <a class="link" href="./index.html">Студия</a>
+        <ul class="list-item">
+            <li class="item link">
+                <a class="link current" href="./index.html">Студия</a>
+            </li>
+            <li class="item link">
+                <a class="link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="item link">
+                <a class="link" href="">Контакты</a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="header-contacts-list">
+        <li class="contacts-list link">
+            <a class="mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li class="item">
-            <a class="link" href="./portfolio.html">Портфолио</a>
-        </li>
-        <li class="item">
-            <a class="link" href="">Контакты</a>
+        <li class="contacts-list link">
+            <a class="phone link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
     </ul>
-</nav>
-<!-- контакты -->
-<ul class="header-contacts-list">
-    <li class="contacts-list">
-        <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-    <li class="contacts-list">
-<a class="phone" href="tel:+380961111111">+38 096 111 11 11</a>
-</li>
-</ul>
 </header>
 
 <!-- основная часть -->
@@ -54,21 +54,21 @@
 <!-- особенности -->
 
 <section class="features">
-    <h2 class="title-second" hidden>особенности</h2>
+    <h2 class="visually-hidden" hidden>особенности</h2>
     <ul class="features-list">
-        <li class="features-item">
+        <li class="features-item link">
         <h3 class="title-third">Внимание к деталям</h3>
         <p class="features-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
     </li>
-        <li class="features-item">
+        <li class="features-item link">
         <h3 class="title-third">Пунктуальность</h3>
         <p class="features-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
     </li>
-        <li class="features-item">
+        <li class="features-item link">
         <h3 class="title-third">Планирование</h3>
         <p class="features-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
     </li>
-        <li class="features-item">
+        <li class="features-item link">
         <h3 class="title-third">Современные технологии</h3>
         <p class="features-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
     </li>
@@ -80,13 +80,13 @@
 <section class="work-description">
     <h2 class="work">Чем мы занимаемся</h2>
     <ul class="work-list">
-        <li class="work-item">
+        <li class="work-item link">
         <img src="./images/img-laptop.jpg" alt="разработка для компьютера" width="370" height="294">
         </li>
-        <li class="work-item">
+        <li class="work-item link">
             <img src="./images/img-mobile.jpg" alt="разработка для телефона" width="370" height="294">
         </li>
-        <li class="work-item">
+        <li class="work-item link">
             <img src="./images/img-tab.jpg" alt="разработка для планшета" width="370" height="294">
         </li>
     </ul>
@@ -96,7 +96,7 @@
 
 <section class="employees">
     <h2 class="team">Наша команда</h2>
-    <ul class="team-list">
+    <ul class="team-list link">
         <li class="team-item">
             <img src="./images/img-product-designer.jpg" alt="Игорь Демьяненко" width="270" height="260">
             <h3 class="title-item">Игорь Демьяненко</h3>
@@ -126,12 +126,12 @@
 <footer class="logo-contacts">
     <a href="" class="logo">Web<span class="footer-logo">Studio</span> </a>
     <address class="footer-address">
-        <ul class="footer-contacts-list">
-        <li><a class="contacts-link" href="https://goo.gl/maps/XvVAJL7zwZZcy64VA" target="_blank"
+    <ul class="footer-contacts-list">
+        <li class="link"><a class="contacts-link link" href="https://goo.gl/maps/XvVAJL7zwZZcy64VA" target="_blank"
                 rel="noopener nofollow noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
-        <li><a class="contacts-list" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contacts-list" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        <li class="link"><a class="contacts-list link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="link"><a class="contacts-list link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+    </ul>
 </address>
 </footer>
 </body>
