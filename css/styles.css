@@ -30,6 +30,7 @@ address {
 }
 .link {
     text-decoration: none;
+    color: inherit;
 }
 .visually-hidden {
     position: absolute;
@@ -69,14 +70,12 @@ address {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    color: var(--secondary-txt-cl);
 }
-.current: {
+.current {
     color: var(--accent-txt-cl);
 }
-/* .link {
-    color: var(--secondary-txt-cl);
-    list-style: none;
-} */
 .link:hover,
 .link:focus {
     color: var(--accent-txt-cl);
@@ -127,7 +126,6 @@ address {
 
     cursor: pointer;
 }
-
 .button:hover,
 .button:focus {
     background-color: #188CE8;
@@ -243,8 +241,8 @@ address {
 .filter-button:hover,
 .filter-button:focus {
     background-color: var(--accent-bg-cl);
+    color: #FFFFFF;
 }
-
 .filter-item {
     font-family: inherit;
 }
