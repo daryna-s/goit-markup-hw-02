@@ -31,11 +31,21 @@ address {
 .link {
     text-decoration: none;
 }
-.current:active {
-    color: var(--accent-txt-cl);
-}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
 
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 /* навигация */
+
 .logo {
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -60,19 +70,29 @@ address {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.link {
+.current: {
+    color: var(--accent-txt-cl);
+}
+/* .link {
     color: var(--secondary-txt-cl);
     list-style: none;
-}
+} */
 .link:hover,
 .link:focus {
     color: var(--accent-txt-cl);
 }
-
+.list {
+    list-style: none;
+}
 /* контакты */
 
 .mail,
 .phone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
     color: var(--main-txt-cl);
 }
 
@@ -107,10 +127,9 @@ address {
 
     cursor: pointer;
 }
-/* добавление ховера ничего не меняет( */
+
 .button:hover,
 .button:focus {
-    color: var(--next2-txt-cl);
     background-color: #188CE8;
 }
 
@@ -208,10 +227,6 @@ address {
 
 /* кнопки фильтра */
 
-.filter-button-first {
-    background-color: var(--accent-bg-cl);
-}
-.filter-button-first,
 .filter-button {
     font-family: inherit;
     font-style: normal;
@@ -225,14 +240,11 @@ address {
     background-color: var(--next1-bg-cl);
     cursor: pointer;
 }
-
-.filter-list .filter-item .filter-button:hover,
-.filter-list .filter-item .filter-button:focus,
-.filter-list .filter-item .filter-button-first:hover,
-.filter-list .filter-item .filter-button-first:focus {
+.filter-button:hover,
+.filter-button:focus {
     background-color: var(--accent-bg-cl);
-    color: var(--next2-txt-cl);
 }
+
 .filter-item {
     font-family: inherit;
 }
